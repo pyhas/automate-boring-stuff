@@ -6,7 +6,7 @@ def collatz(anyNumber):
     if anyNumber % 2 == 0:
         # Even
         return anyNumber // 2
-    elif anyNumber % 2 == 1:
+    else:
         # Odd
         return 3 * anyNumber + 1
 
